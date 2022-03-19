@@ -144,6 +144,7 @@ h3 {
   text-decoration: underline;
   background-color: #4e80ac;
   padding-top: 40px;
+  line-height: 1.5em;
 }
 
 form {
@@ -174,6 +175,11 @@ input, textarea {
   border: 5px solid;
   font-size: 80%;
   font-family: var(--familiaLetra);
+}
+
+.titulos, .footerFrase {
+  text-transform: uppercase;
+  color: #0f0e0e;
 }
 
 .footerImagen {
@@ -223,11 +229,11 @@ input, textarea {
 h2 {
   text-align: center;
   color: var(--colorLetra);
-  background-color: #4e80ac;
   margin-top: 15%;
   margin-bottom: 5%;
-  margin-left: 10%;
+  margin-left: 30%;
   font-size: 50px;
+  line-height: 1.5em;
   text-decoration: underline;
   font-family: var(--familiaLetra);
 }
@@ -267,7 +273,6 @@ table {
   text-align: center;
   border: black 1px;
   border-collapse: collapse;
-  margin-bottom: 20%;
   color: var(--colorLetra);
   font-family: var(--familiaLetra);
 }
@@ -339,6 +344,7 @@ h1 {
   text-align: center;
   text-decoration: underline;
   font-size: 40px;
+  line-height: 1.5em;
 }
 
 main div .barraHome {
